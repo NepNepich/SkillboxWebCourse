@@ -1,8 +1,7 @@
 h1 {
   font-family: "Jost", sans-serif;
-  font-optical-sizing: auto;
   font-weight: 300;
-  font-style: light;
+  font-style: Light;
   font-size: 40px;
   line-height: 44px;
   letter-spacing: 0%;
@@ -12,24 +11,11 @@ h1 {
 
 h2 {
   font-family: "Jost", sans-serif;
-  font-optical-sizing: auto;
   font-weight: 300;
-  font-style: light;
+  font-style: Light;
   font-size: 32px;
   line-height: 34px;
   letter-spacing: 0%;
-  text-align: left;
-  color: #a99e96;
-}
-
-h3 {
-  font-family: "Jost", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 20px;
-  line-height: 28px;
-  letter-spacing: 8%;
-  text-transform: uppercase;
   color: #a99e96;
 }
 
@@ -43,14 +29,8 @@ p {
   color: #d4d4d4;
 }
 
-li {
-  font-family: "Jost", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 16px;
-  line-height: 24px;
-  letter-spacing: 0%;
-  color: #d4d4d4;
+i {
+  font-style: Italic;
 }
 
 a {
@@ -66,6 +46,35 @@ a {
   color: #c99374;
 }
 
+ul {
+  font-family: "Jost", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0%;
+  color: #d4d4d4;
+}
+
+q {
+  font-family: "Jost", sans-serif;
+  font-weight: 400;
+  font-style: Italic;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 8%;
+  quotes: "«" "»" '"' '"';
+  color: #a99e96;
+}
+
+q::before {
+  content: open-quote;
+}
+
+q::after {
+  content: close-quote;
+}
+
 figcaption {
   font-family: "Jost", sans-serif;
   font-weight: 400;
@@ -78,8 +87,48 @@ figcaption {
   opacity: 60%;
 }
 
-b {
-  font-style: bold;
+blockquote {
+  background: linear-gradient(
+    90deg,
+    rgba(79, 163, 177, 0.8) 0%,
+    rgba(75, 119, 170, 0.8) 0.01%,
+    rgba(107, 150, 221, 0.8) 0.02%,
+    rgba(78, 117, 186, 0.8) 0.03%,
+    rgba(125, 156, 214, 0.8) 0.04%,
+    rgba(52, 86, 160, 0.8) 100%
+  );
+  border-radius: 10px;
+  padding: 20px;
+  margin: 20px 0;
+  font-family: "Jost", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+
+th {
+  font-family: "Jost", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 8%;
+  text-transform: uppercase;
+  color: #a99e96;
+}
+
+td {
+  font-family: "Jost", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0%;
+  vertical-align: middle;
+  color: #d4d4d4;
 }
 
 .footer__slogan {
