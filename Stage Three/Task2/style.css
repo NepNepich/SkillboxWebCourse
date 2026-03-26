@@ -1,0 +1,123 @@
+.banner__image {
+  width: 100%;
+  display: block;
+  height: auto;
+  object-fit: cover;
+  filter: brightness(0.5);
+  overflow: auto;
+}
+
+.banner {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+}
+
+.banner__title {
+  display: block;
+  position: absolute;
+  margin-top: 40px;
+  width: 500px;
+  top: 0%;
+  left: 50%;
+  transform: translate(-50%, 0%);
+  font-family: Montserrat;
+  font-weight: 300;
+  font-style: Light;
+  font-size: 50px;
+  line-height: 56px;
+  letter-spacing: 0%;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.banner__flats {
+  display: block;
+  position: absolute;
+  width: 320px;
+  bottom: 120px;
+  left: 50%;
+  transform: translate(-50%, 0%);
+  font-family: Montserrat;
+  font-weight: 300;
+  font-style: Light;
+  font-size: 24px;
+  letter-spacing: 0%;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.banner__flats span {
+  font-size: 150px;
+}
+
+.banner__button {
+  display: block;
+  position: absolute;
+  font-family: Montserrat;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 14px;
+  letter-spacing: 0%;
+  box-sizing: border-box;
+  width: 250px;
+  height: 50px;
+  border-radius: 60px;
+  background-color: white;
+  color: black;
+  text-align: center;
+  bottom: 40px;
+  left: 50%;
+  transform: translate(-50%, 0%);
+  line-height: 50px;
+}
+
+.advantages-list {
+  position: relative;
+  list-style: none;
+  padding: 0;
+}
+
+.advantages-list__item {
+  width: 800px;
+  min-height: 600px;
+}
+
+.advantages-list__item--right {
+  margin-left: auto;
+}
+
+.advantages-list__item h2 {
+  font-family: Montserrat;
+  font-weight: 300;
+  font-style: Light;
+  font-size: 40px;
+  line-height: 48px;
+  letter-spacing: 2%;
+  text-transform: uppercase;
+}
+
+.advantages-list__item p {
+  font-family: Montserrat;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 15px;
+  line-height: 22px;
+  letter-spacing: 0%;
+  width: 680px;
+}
+
+.advantages-list__button {
+  font-family: Montserrat;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 50px;
+  width: 145px;
+  height: 50px;
+  box-sizing: border-box;
+  border: 1px solid white;
+  border-radius: 60px;
+  background: transparent;
+  color: white;
+  text-align: center;
+}
